@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- CSS boostrap Online -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+    <!-- use Raspberry -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type=text/css href="assets/vendor/bootstrap.min.css">
+    <!-- local variable -->
+    
+    <!-- Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <title>Omniwheels Control</title>
+</head>
+<body>
+    <!-- <h1 class="judul">Live Streaming <div class="spinner-grow text-danger" role="status"></div></h1> -->
+    <h2 class="second-judul text-center">Robot Personal Assistant Security<hr></h2>
+    <h4 class="cam">Camera</h4>
+
+    <!-- Camera (do not disable) -->
+    <div class="container-fluid">
+        <picture class="pic">
+            <img src="assets/img/coba.png" class="img-thumbnail text-center" alt="No Response!. Please Check Your WebCam!">
+        </picture>
+    </div>
+
+    <!-- Controller -->
+    <div class="container">
+        <h4 class="text-center"></h4>
+        <div class="rows">
+            <div class="col-8">
+                <a href="#" id="maju"><button type="button" class="btn btn-secondary">Maju</i></button></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <a href="#" id="kiri"><button type="button" class="btn btn-secondary"> Kiri</button></a>
+            </div>
+            <div class="col-6">
+                <a href="#" id="kanan"><button type="button" class="btn btn-secondary"> kanan</button> </a>
+            </div>
+            
+            <div class="columnLateral">
+                <div id="joy1Div"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <a href="#" id="mundur"><button type="button" class="btn btn-secondary">Mundur</button></a>
+            </div>
+        </div>
+        <br>
+
+        <div class="utility">
+            <a href="#" id="berhenti"><button type="button" class="btn btn-danger">Stop</button></a>
+            <a href="#" id="refresh"><button type="button" class="btn btn-warning refresh ">Restart</button></a>
+        </div>
+        <br>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="jumbotron-fluid">
+        <footer class="footer">
+            <h6 class="foo">
+                <img src="assets/img/logo.jpg" alt="UG-Muro" class="logo" />Copyright &copy; 2023. Laboratorium Multimedia & Robotika Universitas Gunadarma</h6>
+        </footer>
+    </div>
+
+    <!-- Javascript components -->
+    <script src="assets/vendor/joy.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/vendor/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
